@@ -1,0 +1,34 @@
+<div class="register">
+<div class="frame1">
+  <h1>"Sembrar amor por la Lectura a toda la Familia"</h1>
+  <img src="assets/images/imageRegister.png">
+</div>
+<div class="form-register">
+  <img src="assets/images/logo_mdl.png">
+  <h1>Registrar</h1>
+  <div class="card-body">
+    <form #myform="ngForm" (ngSubmit)="onSubmit(myform)">
+      <div class='form-group'>
+        <label for="firstName">Nombre <span class="req">*</span></label>
+        <input class='form-control' type="text" name="nameP" placeholder="Name" ngModel>
+      </div>
+      <div class='form-group'>
+        <label for="lastName">Usuario <span class="req">*</span></label>
+        <input class='form-control' type="text" name="username" placeholder="camibonbu54" ngModel>
+      </div>
+      <div class='form-group'>
+        <label for="lastName">Email <span class="req">*</span></label>
+        <input class='form-control' type="email" name="email" placeholder="camibonbu54@gmail.com" ngModel>
+      </div>
+      <div class='form-group'>
+        <label for="lastName">Fecha de cumpleaños <span class="req">*</span></label>
+        <input class='form-control' type="text" name="birth" placeholder="2002-08-03" ngModel>
+      </div>
+      <div class='form-group'>
+        <label for="lastName">Contraseña <span class="req">*</span></label>
+        <input class='form-control' type="password" name="password" placeholder="******" ngModel>
+      </div>
+      <input class='btn btn-outline-info' type="submit" value="Register">
+    </form>
+  </div>
+</div>

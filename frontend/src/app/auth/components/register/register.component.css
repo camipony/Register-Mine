@@ -1,0 +1,103 @@
+
+.register {
+  display: flex;
+  flex-direction: row;
+}
+
+.register .frame1 {
+  width: 80%;
+}
+
+.req {
+  color: red;
+}
+
+*:required {
+  background-color: gold;
+}
+
+button {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.register .frame1 h1 {
+  position: absolute;
+  display: inline-block;
+  width: 382px;
+  height: 234px;
+  left: 48px;
+  top: 230px;
+  font-family: 'Texturina';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.register .frame1 img {
+  height: 100%;
+}
+
+.register .form-register img {
+  width: 12%;
+}
+
+.register .form-register h1 {
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+label {
+  font-family: 'Roboto';
+  font-style: normal;
+  color: black;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+input {
+  background-color: #E6E6E6;
+}
+
+button {
+  margin-top: 5px;
+}
+
+.form-control {
+  align-items: center;
+  border: 2px solid #ced4da;
+  width: 150%;
+}
+
+button[_ngcontent-bka-c49] {
+  margin-top: 5px;
+  background-color: black;
+  border: 1px black;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
+.form-register {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
